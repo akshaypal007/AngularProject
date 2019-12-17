@@ -1,0 +1,336 @@
+#dispimage
+{
+    width: 100%;
+    height: 565px;
+}
+
+#well1
+{
+    font-family: Lobster;
+    font-size: 30px;
+}
+
+#well2
+{
+    font-family: Caveat;
+    font-size: 20px;
+}
+
+.row2
+{
+    background-color: rgb(72, 72, 207);
+}
+
+#glance
+{
+    font-family: Lobster;
+    font-size: 25px; 
+    color: white;
+}
+
+.city
+{
+    font-family: Satisfy;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.glancepara
+{
+    text-align: justify;
+    font-family: Great Vibes;
+    font-size: 21px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: white;
+    transition: color 0.7s;
+}
+.glancepara:hover
+{
+    color: black;
+}
+
+.glancephoto:hover
+{
+    -ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.row3
+{
+    background-color:seashell;
+}
+
+#about
+{
+    font-family: Lobster;
+    font-size: 25px; 
+}
+
+.aboutus
+{
+    text-align: justify;
+    font-family: Great Vibes;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px; 
+    transition: color 0.7s;
+}
+.aboutus:hover
+{
+    color: darkblue;
+}
+
+#work
+{
+    font-family: Lobster;
+    font-size: 25px;   
+}
+
+#workcomponents
+{
+    margin-top: 25px;
+}
+
+.workdiv
+{
+    transition:box-shadow 1s;
+}
+.workdiv:hover
+{
+    box-shadow: 5px 5px 5px 5px lightgrey;
+}
+
+.workdiv
+{
+    border-left: 2px solid lightgray;
+    border-right: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.workphoto
+{
+    height: 250px;
+    width: 100%;   
+}
+
+.workp1
+{
+    font-family: Lobster;
+    font-size: 25px;
+}
+
+.workp2
+{
+    padding: 10px;
+    text-align: justify;
+    font-family: Great Vibes;
+    font-size: 20px;
+    word-spacing: 2px; 
+}
+
+.row4
+{
+    background-color: rgb(72, 72, 207);
+}
+
+#working
+{
+    font-family: Poiret One;
+    color: white;
+    font-weight: bold;
+}
+
+#button
+{
+    background-color: white;
+    border-radius: 40px;
+    height: 40px;
+    width: 350px;
+}
+
+#btnpara
+{
+    line-height: 15px;
+}
+
+#workingpara
+{
+    color: white;
+    font-size: 16px;
+    font-family: Rasa;
+}
+
+#btnparadecoration
+{
+    color: rgb(72, 72, 207);
+    text-decoration: none;
+    transition: color 0.7s;
+}
+#btnparadecoration:hover
+{
+    color: black;
+}
+
+.row5
+{
+    background-color:seashell;
+}
+
+#meetupcomponents
+{
+    margin-top: 25px;
+}
+
+#panelradius
+{
+    border-radius: 8px;
+    transition:box-shadow 1s;
+}
+#panelradius:hover
+{
+    box-shadow: 7px 7px 7px 7px lightgrey;
+}
+
+#panelcolor
+{
+    background-color: rgb(72, 72, 207);
+}
+
+.meetupcity
+{
+    font-family: Lobster;
+    font-size: 20px;
+}
+
+.meetupmonth
+{
+    font-family: Poiret One; 
+}
+
+.meetupcity1
+{
+    font-family: Great Vibes;  
+    font-size: 20px;  
+}
+
+.meetupbutton
+{
+   background-color: orange;
+   color: white;  
+}
+
+#meetbtndeco
+{
+    color: white;
+    font-family: Rasa;
+    text-decoration: none;
+}
+
+.row6
+{
+    background-color: rgb(72, 72, 207);
+}
+
+#imagicawork
+{
+    color: white;
+    font-family: Poiret One;
+    font-weight: bold;
+}
+
+#workway
+{
+    color: white;
+    font-family: Great Vibes;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.circlemove
+{
+    padding-left: 90px;
+}
+
+.circle
+{
+    border: 2px solid white;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    transition:color 0.7s;
+}
+.circle:hover
+{
+    background-color: white;
+}
+
+.circlenum
+{
+    color: white;
+    line-height: 30px;
+    transition:color 0.7s;
+}
+.circlenum:hover
+{
+    color: black;
+}
+
+.circleleft
+{
+    padding-left: 60px;
+}
+
+.circleleftdata
+{
+    color: white;
+    font-family: Poiret One;
+    transition: font-weight 0.7s;
+}
+.circleleftdata:hover
+{
+    font-weight: bold;
+}
+
+.workright
+{
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 500px;
+    width: 300px;
+    margin-top: 155px;
+}
+
+.workrightpara
+{
+    color: white;
+    font-family: Lobster;
+    font-size: 20px;
+    margin-top: 85px;
+    line-height: 35px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    transition: color 0.7s;
+}
+.workrightpara:hover
+{
+    color: black;
+}
+
+.workingpara2
+{
+    color: white;
+    font-family: Great Vibes;
+    font-size: 15px;
+    letter-spacing: 2px; 
+    margin-left: 70px;
+}
+
+.row7
+{
+    background-color: rgb(46, 30, 30);
+}

@@ -1,0 +1,61 @@
+.navbar-header
+{
+    height: 30px;
+    margin-top: 5px;
+}
+.navbar-brand
+{
+    line-height: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    font-family: Permanent Marker;
+}
+.navbar-nav>li>a
+{
+    line-height: 40px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 45px;
+    font-family:Indie Flower;
+    transition: transform 0.5s;
+}
+
+#mynavbar
+{
+    margin-top: 30px;
+}
+.navbar-nav>li>a:hover
+{
+    transform: scale(1.1);
+    background: none;
+    color: blue;
+}
+
+
+.buton
+{
+	border-style: none;
+	line-height: 30px;
+    margin-right: 20px;
+	background-color: rgba(0,0,0,0);
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+button[type="button"]
+{
+    color: black;
+    border: 2px solid black;
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    font-family:Indie Flower;
+}
+
+.bottompara
+{
+    color: white;
+}

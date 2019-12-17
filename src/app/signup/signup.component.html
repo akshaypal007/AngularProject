@@ -1,0 +1,87 @@
+<div class="container-fluid row1">
+    <div class="row">
+        <div class="col-lg-4 col-md-3 col-sm-3 col-xs-1">
+            <div class="col-md-12"></div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-10">
+            <div class="col-md-12 signup">
+                <h3 class="text-center" id="signuptag">Sign Up</h3><br>
+                <form [formGroup]="myform" (ngSubmit)="save()">
+                    <div class="form-group">
+                        <label class="label"><i class="fa fa-user"></i>&nbsp; Full Name</label>
+                        <input type="text" class="form-control input" formControlName="name">
+                        <div *ngIf="pagesubmit && myform.controls.name.errors">
+                            <p *ngIf="myform.controls.name.errors.required">
+                                <i class="text-danger">** Please provide your Name!!</i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="label"><i class="fa fa-phone"></i>&nbsp; Mobile</label>
+                        <input type="number" class="form-control input" formControlName="mobile">
+                        <div *ngIf="pagesubmit && myform.controls.mobile.errors">
+                            <p *ngIf="myform.controls.mobile.errors.required">
+                                <i class="text-danger">** Please provide Phone number!!</i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="label"><i class="fa fa-envelope"></i>&nbsp; Email-Id</label>
+                        <input type="email" class="form-control input" formControlName="email">
+                        <div *ngIf="pagesubmit && myform.controls.email.errors">
+                            <p *ngIf="myform.controls.email.errors.required">
+                                <i class="text-danger">** Please provide Email-Id!!</i>
+                            </p>
+                            <p *ngIf="myform.controls.email.errors.email">
+                                <i class="text-danger">** Please provide valid Email-Id..</i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="label"><i class="fa fa-lock"></i>&nbsp; Password</label>
+                        <input type="password" class="form-control input" formControlName="password">
+                        <div *ngIf="pagesubmit && myform.controls.password.errors">
+                            <p *ngIf="myform.controls.password.errors.required">
+                                <i class="text-danger">** Please provide Password!!</i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="label"><i class="fa fa-map-marker"></i>&nbsp; State</label>
+                        <select class="form-control input" formControlName="state">
+                            <option value="">Select State</option>
+                            <option value="Karnataka">Karnataka</option>
+                            <option value="Uttar Pradesh">Uttar Pradesh</option>
+                            <option value="Punjab">Punjab</option>
+                            <option value="Haryana">Haryana</option>
+                            <option value="Tamil Nadu">Tamil Nadu</option>
+                        </select>
+                        <div *ngIf="pagesubmit && myform.controls.state.errors">
+                            <p *ngIf="myform.controls.state.errors.required">
+                                <i class="text-danger">** Please provide Password!!</i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="text-center">
+                        <button class="btn btn-primary">Sign Up</button>
+                    </div>
+                    <hr>
+                    <div class="text-center">
+                        <a href="https://akshaypal007.github.io/AngularProject/login" id="login">Have account please login</a>
+                    </div>
+                </form>        
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-3 col-sm-3 col-xs-1">
+            <div class="col-md-12"></div>
+        </div>
+
+    </div><br><br>
+</div>

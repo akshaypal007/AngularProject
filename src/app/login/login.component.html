@@ -1,0 +1,49 @@
+<div class="container-fluid row1">
+    <div class="row">
+        <div class="col-lg-4 col-md-3 col-sm-3 col-xs-1">
+            <div class="col-md-12"></div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-10">
+            <div class="col-md-12 login">
+                <h3 class="text-center" id="logintag">Login</h3><br>
+                <form [formGroup]="myform" (ngSubmit)="save()">
+                    <div class="form-group">
+                        <label class="label"><i class="fa fa-envelope"></i>&nbsp; Email-Id</label>
+                        <input type="email" class="form-control input" formControlName="email">
+                        <div *ngIf="pagesubmit && myform.controls.email.errors">
+                            <p *ngIf="myform.controls.email.errors.required">
+                                <i class="text-danger">** Please provide Email-Id!!</i>
+                            </p>
+                            <p *ngIf="myform.controls.email.errors.email">
+                                <i class="text-danger">** Please provide valid Email-Id..</i>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="label"><i class="fa fa-lock"></i>&nbsp; Password</label>
+                        <input type="password" class="form-control input" formControlName="password">
+                        <div *ngIf="pagesubmit && myform.controls.password.errors">
+                            <p *ngIf="myform.controls.password.errors.required">
+                                <i class="text-danger">** Please provide Password!!</i>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-primary">Login</button>
+                    </div>
+                    <hr>
+                    <div class="text-center">
+                        <a href="https://akshaypal007.github.io/AngularProject/signup" id="registration">Click here for registration</a>
+                    </div>
+                </form>        
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-3 col-sm-3 col-xs-1">
+            <div class="col-md-12"></div>
+        </div>
+
+    </div><br><br><br><br><br><br><br><br>
+</div>
